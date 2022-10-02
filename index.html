@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume : 배승연</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/be4e817740.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+                theme: {
+                extend: {},
+                fontFamily: {
+                    sans: ["Noto Sans KR"],
+                },
+            }
+        }
+    </script>
+</head>
+<body>
+    <section>
+        <div class="flex flex-col pt-6 pb-12 bg-center bg-no-repeat bg-cover md:pt-8 md:pb-14 lg:pt-10 lg:pb-16" style="background-image: url('./images/background.jpg')">
+            <nav class="flex flex-row justify-between px-8 text-white md:text-xl lg:text-2xl md:px-12 lg:px-16">
+                <h1 class="font-bold">
+                    R<span class="text-[#10af88]">esume</span>
+                </h1>
+                <ul class="flex flex-row">
+                    <li class="px-2 md:px-8 hover:text-[#ccc] ease-out duration-150">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="px-2 md:px-8 hover:text-[#ccc] ease-out duration-150">
+                        <a href="#project">Project</a>
+                    </li>
+                    <li class="px-2 md:px-8 hover:text-[#ccc] ease-out duration-150">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="flex flex-col">
+                <figure class="mt-12 mb-8 md:mb-12 md:mt-20">
+                    <img class="w-2/4 max-w-[350px] mx-auto mb-6 rounded-full md:mb-10" src="./images/profile.jpg" alt="프로필 사진">
+                    <figcaption class="text-center">
+                        <h2 class="text-[#10af88] text-4xl mb-2 font-bold md:text-5xl md:mb-6 lg:text-6xl">
+                            배승연
+                        </h2>
+                        <p class="text-white md:text-xl lg:text-2xl">
+                            주니어 프론트엔드 개발자
+                        </p>
+                    </figcaption>
+                </figure>
+                <div class="flex justify-center">
+                    <a href="https://github.com/sypear" class="mr-3 md:mr-6" target="_blank" aria-label="GitHub로 이동하기">
+                        <i class="text-2xl text-white md:text-4xl fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://sypear.tistory.com/" target="_blank" aria-label="개인 블로그로 이동하기">
+                        <i class="text-2xl text-white md:text-4xl fa-solid fa-house"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="bg-[#152727] text-white flex flex-col text-center px-10 pt-12 pb-16 md:px-16 md:pt-20">
+        <div class="max-w-[1000px] mx-auto">
+            <div class="mb-16 md:mb-24">
+                <h2 class="text-4xl font-bold mb-8 border-solid border-[#10af88] border-b-4 pb-4 md:text-5xl md:mb-10 md:pb-8">
+                    About Me
+                </h2>
+                <p class="md:text-lg">
+                    저는 개미 같은 사람입니다. 개미는 오늘도 열심히 일을 합니다. 개미는 언제나 열심히 일을 합니다. 개미는 아무 말도 하지 않지만 땀을 뻘뻘 흘리면서 매일 매일을 살기 위해서 열심히 일합니다. 한치 앞도 모르는 험한 이 세상 개미도 베짱이도 알 수 없지만 그렇지만 오늘도 행복합니다. 개미는 오늘도 열심히 일을 합니다. 개미는 언제나 열심히 일을 합니다.
+                </p>
+            </div>
+            <div class="md:grid md:grid-rows-2 md:grid-cols-2">
+                <div class="mb-12 text-left">
+                    <h3 class="mb-3 text-3xl font-bold md:mb-6 md:text-4x">
+                        Skills
+                    </h3>
+                    <ul class="pl-5 list-disc md:text-lg">
+                        <li class="mb-1">
+                            HTML/CSS
+                        </li>
+                        <li class="mb-1">
+                            JavaScript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-12 text-left">
+                    <h3 class="mb-3 text-3xl font-bold md:mb-6 md:text-4x">
+                        Experience
+                    </h3>
+                    <ul class="pl-5 list-disc md:text-lg">
+                        <li class="mb-1">어쩌구대학교 무슨무슨과</li>
+                        <li>멋쟁이사자처럼 프론트엔드스쿨 3기</li>
+                    </ul>
+                </div>
+                <div class="mb-12 text-left">
+                    <h3 class="mb-3 text-3xl font-bold md:mb-6 md:text-4x">
+                        Certificate
+                    </h3>
+                    <ul class="pl-5 list-disc md:text-lg">
+                        <li class="mb-1">CSTS</li>
+                        <li class="mb-1">SQLD</li>
+                        <li>정보처리기사</li>
+                    </ul>
+                </div>
+                <div class="text-left">
+                    <h3 class="mb-3 text-3xl font-bold md:mb-6 md:text-4x">
+                        Awards
+                    </h3>
+                    <ul class="pl-5 list-disc md:text-lg">
+                        <li class="mb-1">개근상</li>
+                        <li>멍때리기대회 우승</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="px-10 py-16 text-center text-white bg-black md:px-16 md:py-24">
+        <div class="max-w-[1000px] mx-auto">
+            <h2 class="text-4xl font-bold mb-8 border-solid border-[#10af88] border-b-4 pb-4 md:text-5xl md:mb-16 md:pb-8">Project</h2>
+            <ul class="md:grid md:grid-rows-2 md:grid-cols-2 md:gap-x-8 md:gap-y-12">
+                <li class="mb-20 md:mb-0">
+                    <figure>
+                        <img class="mb-6 duration-300 ease-out rounded-lg cursor-pointer hover:opacity-60" src="./images/project.jpg" alt="1만 시간의 법칙 프로젝트 메인 화면 이미지">
+                        <figcaption>
+                            <strong class="inline-block mb-1 text-2xl">1만 시간의 법칙</strong>
+                            <p class="mb-3 text-[#b0b0b0]">
+                                <span class="sr-only">프로젝트 기간</span>
+                                <time>2022-09-03</time> ~ <time>2022-09-04</time>
+                            </p>
+                            <p class="text-xl">1만 시간의 법칙 페이지 제작 프로젝트입니다.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mb-20 md:mb-0">
+                    <figure>
+                        <img class="mb-6 duration-300 ease-out rounded-lg cursor-pointer hover:opacity-60" src="./images/project.jpg" alt="벤딩머신 프로젝트 메인 화면 이미지">
+                        <figcaption>
+                            <strong class="inline-block mb-1 text-2xl">벤딩머신</strong>
+                            <p class="mb-3 text-[#b0b0b0]">
+                                <span class="sr-only">프로젝트 기간</span>
+                                <time>2022-09-05</time> ~ <time>2022-09-07</time>
+                            </p>
+                            <p class="text-xl">벤딩머신 페이지 제작 프로젝트입니다.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mb-20 md:mb-0">
+                    <figure>
+                        <img class="mb-6 duration-300 ease-out rounded-lg cursor-pointer hover:opacity-60" src="./images/project.jpg" alt="랜딩페이지 프로젝트 메인 화면 이미지">
+                        <figcaption>
+                            <strong class="inline-block mb-1 text-2xl">랜딩페이지</strong>
+                            <p class="mb-3 text-[#b0b0b0]">
+                                <span class="sr-only">프로젝트 기간</span>
+                                <time>2022-09-08</time> ~ <time>2022-09-11</time>
+                            </p>
+                            <p class="text-xl">랜딩페이지 제작 프로젝트입니다.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mb-20 md:mb-0">
+                    <figure>
+                        <img class="mb-6 duration-300 ease-out rounded-lg cursor-pointer hover:opacity-60" src="./images/project.jpg" alt="감귤마켓 프로젝트 메인 화면 이미지">
+                        <figcaption>
+                            <strong class="inline-block mb-1 text-2xl">감귤마켓</strong>
+                            <p class="mb-3 text-[#b0b0b0]">
+                                <span class="sr-only">프로젝트 기간</span>
+                                <time>2022-09-12</time> ~ <time>2022-09-19</time>
+                            </p>
+                            <p class="text-xl">감귤마켓 프로젝트입니다.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mb-20 md:mb-0">
+                    <figure>
+                        <img class="mb-6 duration-300 ease-out rounded-lg cursor-pointer hover:opacity-60" src="./images/project.jpg" alt="개인프로젝트1 메인 화면 이미지">
+                        <figcaption>
+                            <strong class="inline-block mb-1 text-2xl">개인프로젝트1</strong>
+                            <p class="mb-3 text-[#b0b0b0]">
+                                <span class="sr-only">프로젝트 기간</span>
+                                <time>2022-09-20</time> ~ <time>2022-09-21</time>
+                            </p>
+                            <p class="text-xl">개인프로젝트1입니다.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="mb-6 duration-300 ease-out rounded-lg cursor-pointer hover:opacity-60" src="./images/project.jpg" alt="개인프로젝트2 메인 화면 이미지">
+                        <figcaption>
+                            <strong class="inline-block mb-1 text-2xl">개인프로젝트2</strong>
+                            <p class="mb-3 text-[#b0b0b0]">
+                                <span class="sr-only">프로젝트 기간</span>
+                                <time>2022-09-22</time> ~ <time>2022-09-23</time>
+                            </p>
+                            <p class="text-xl">개인프로젝트2입니다.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="bg-[#294242] text-white px-10 py-8 md:px-16 md:py-12">
+        <div class="max-w-[1000px] mx-auto">
+            <h2 class="mb-6 text-3xl font-bold md:text-4xl md:mb-10">Contact</h2>
+            <address class="border-solid border-l-8 border-[#10af88] pl-4 md:text-lg md:pl-6">
+                <p class="mb-1 md:mb-3">
+                    <a href="mailto:sy@gmail.com" aria-label="이메일 주소">
+                        sy@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:010-1234-5678" aria-label="핸드폰 번호">
+                        010-1234-5678
+                    </a>
+                </p>
+            </address>
+        </div>
+    </section>
+</body>
+</html>
