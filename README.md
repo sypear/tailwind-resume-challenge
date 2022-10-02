@@ -7,3 +7,10 @@
 
 ## npm을 이용해 Tailwind CSS를 설치하여 작업한 버전의 Repo 👇
 * https://github.com/sypear/web-resume-tailwind
+
+<br>
+
+## 이미지 출처
+프로필, 배경 이미지는 Unsplash의 무료 이미지를 사용하였습니다.
+* 프로필 이미지 출처 : <a href="https://unsplash.com/photos/n5aE6hOY6do">Oladimeji Odunsi(Unsplash)</a>
+* 배경 이미지 출처 : <a href="https://unsplash.com/photos/4ELcmuV3osk">Presetbase Lightroom Presets(Unsplash)</a>
